@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda
+.conda/
+conda-meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/*
+!data/.gitkeep
+
+# Models / checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Logs
+logs/
+*.log
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ML experiment artifacts
+mlruns/
+wandb/
+
+# Temporary files
+*.tmp
+*.temp
